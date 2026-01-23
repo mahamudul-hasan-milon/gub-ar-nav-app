@@ -67,22 +67,6 @@ const Hero = () => {
                       <span>GUB AR Nav</span>
                     </div>
                   </div>
-                  <div className="task-list">
-                    {[
-                      "Morning Routine",
-                      "Work Project",
-                      "Gym Session",
-                      "Read Book",
-                    ].map((task, i) => (
-                      <div className="task-item" key={i}>
-                        <div className="task-checkbox"></div>
-                        <span>{task}</span>
-                        <div className="task-time">
-                          {["7:00 AM", "9:00 AM", "6:00 PM", "9:00 PM"][i]}
-                        </div>
-                      </div>
-                    ))}
-                  </div>
                 </div>
               </div>
               <div className="phone-frame"></div>
@@ -204,9 +188,10 @@ const Hero = () => {
           width: calc(100% - 20px);
           height: calc(100% - 40px);
           border-radius: 30px;
-          background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+          background: url("https://i.ibb.co/0jcDtVJr/pro-ui.png") center/cover
+            no-repeat;
           overflow: hidden;
-          z-index: 1;
+          z-index: 3;
         }
 
         .screen-content {
