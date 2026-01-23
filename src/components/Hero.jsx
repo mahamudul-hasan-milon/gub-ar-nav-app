@@ -64,7 +64,7 @@ const Hero = () => {
                   <div className="app-header">
                     <div className="app-header-content">
                       <div className="app-icon-small"></div>
-                      <span>GUB AR Nav</span>
+                      {/* <span>GUB AR Nav</span> */}
                     </div>
                   </div>
                 </div>

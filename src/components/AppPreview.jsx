@@ -10,31 +10,37 @@ const AppPreview = () => {
       id: 1,
       title: "Home Screen",
       description: "Start the app and access campus navigation features",
+      image: "https://i.ibb.co/VWfhvXnb/home.jpg",
     },
     {
       id: 2,
       title: "Destination List",
       description: "Browse all available rooms, labs, and offices",
+      // image: "https://i.ibb.co/xxxx/destination.png",
     },
     {
       id: 3,
       title: "Search Location",
       description: "Quickly find a room or place by name or code",
+      // image: "https://i.ibb.co/xxxx/search.png",
     },
     {
       id: 4,
       title: "AR Navigation View",
       description: "Follow green paths and arrows in real time using AR",
+      // image: "https://i.ibb.co/xxxx/ar.png",
     },
     {
       id: 5,
       title: "Campus Map",
       description: "View the building layout and navigation points",
+      // image: "https://i.ibb.co/xxxx/map.png",
     },
     {
       id: 6,
       title: "Settings",
       description: "Adjust app preferences and AR options",
+      // image: "https://i.ibb.co/xxxx/settings.png",
     },
   ];
 
@@ -106,8 +112,12 @@ const AppPreview = () => {
                       {screenshots[currentSlide].description}
                     </div>
                   </div>
-                  <div className="screenshot-placeholder">
-                    <div className="placeholder-animation"></div>
+                  <div className="screenshot-image-wrapper">
+                    <img
+                      src={screenshots[currentSlide].image}
+                      alt={screenshots[currentSlide].title}
+                      className="screenshot-image"
+                    />
                   </div>
                 </div>
               </div>
@@ -184,6 +194,18 @@ const AppPreview = () => {
           position: relative;
           display: flex;
           justify-content: center;
+        }
+
+        .screenshot-image-wrapper {
+          flex: 1;
+          border-radius: var(--radius-lg);
+          overflow: hidden;
+        }
+
+        .screenshot-image {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
         }
 
         .phone-frame-preview {
