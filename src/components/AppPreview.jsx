@@ -8,33 +8,33 @@ const AppPreview = () => {
   const screenshots = [
     {
       id: 1,
-      title: "Dashboard",
-      description: "Get an overview of your daily progress",
+      title: "Home Screen",
+      description: "Start the app and access campus navigation features",
     },
     {
       id: 2,
-      title: "Task Management",
-      description: "Organize and prioritize your tasks",
+      title: "Destination List",
+      description: "Browse all available rooms, labs, and offices",
     },
     {
       id: 3,
-      title: "Habit Tracker",
-      description: "Build positive habits with streaks",
+      title: "Search Location",
+      description: "Quickly find a room or place by name or code",
     },
     {
       id: 4,
-      title: "Analytics",
-      description: "Track your productivity trends",
+      title: "AR Navigation View",
+      description: "Follow green paths and arrows in real time using AR",
     },
     {
       id: 5,
-      title: "Team Collaboration",
-      description: "Work together on shared projects",
+      title: "Campus Map",
+      description: "View the building layout and navigation points",
     },
     {
       id: 6,
       title: "Settings",
-      description: "Customize your app experience",
+      description: "Adjust app preferences and AR options",
     },
   ];
 
@@ -85,7 +85,8 @@ const AppPreview = () => {
       <div className="container">
         <h2>App Preview</h2>
         <p className="section-subtitle">
-          See how our app looks and feels with these interactive screenshots
+          Explore how GUB AR Nav guides you inside the campus using Augmented
+          Reality
         </p>
 
         <div

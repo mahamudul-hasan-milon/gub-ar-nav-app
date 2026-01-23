@@ -6,56 +6,56 @@ const Features = () => {
   const features = [
     {
       id: 1,
-      icon: "fas fa-tasks",
-      title: "Smart Task Management",
-      shortDesc: "Organize your tasks efficiently",
+      icon: "fas fa-map-marked-alt",
+      title: "AR Indoor Navigation",
+      shortDesc: "Find your way using AR guidance",
       fullDesc:
-        "Create, prioritize, and track tasks with our intelligent system. Set reminders, add subtasks, and collaborate with team members.",
+        "Navigate inside campus buildings using real-time AR arrows and paths. Simply point your camera and follow visual directions to reach your destination.",
       color: "#4361ee",
     },
     {
       id: 2,
-      icon: "fas fa-chart-line",
-      title: "Progress Analytics",
-      shortDesc: "Track your productivity trends",
+      icon: "fas fa-search-location",
+      title: "Quick Destination Search",
+      shortDesc: "Find rooms instantly",
       fullDesc:
-        "Visualize your progress with detailed charts and insights. Identify patterns and optimize your workflow for maximum efficiency.",
+        "Search for classrooms, labs, offices, and facilities by name or code. The system instantly loads the best route for your selected location.",
       color: "#3a0ca3",
     },
     {
       id: 3,
-      icon: "fas fa-bell",
-      title: "Smart Reminders",
-      shortDesc: "Never miss important deadlines",
+      icon: "fas fa-route",
+      title: "Step-by-Step Guidance",
+      shortDesc: "Follow clear navigation paths",
       fullDesc:
-        "Customizable reminders that adapt to your schedule. Get notifications based on location, time, or completion of other tasks.",
+        "The app guides users through predefined waypoints, showing arrows and markers at each turn for a smooth and easy navigation experience.",
       color: "#7209b7",
     },
     {
       id: 4,
-      icon: "fas fa-users",
-      title: "Team Collaboration",
-      shortDesc: "Work together seamlessly",
+      icon: "fas fa-university",
+      title: "Campus-Focused Design",
+      shortDesc: "Built for university buildings",
       fullDesc:
-        "Share projects, assign tasks, and communicate with your team in real-time. Integrated chat and file sharing capabilities.",
+        "Designed specifically for Green University, the system reflects real building layouts and room structures for accurate indoor navigation.",
       color: "#f72585",
     },
     {
       id: 5,
-      icon: "fas fa-shield-alt",
-      title: "Data Security",
-      shortDesc: "Your data is protected",
+      icon: "fas fa-mobile-alt",
+      title: "No Extra Hardware",
+      shortDesc: "Works on your smartphone",
       fullDesc:
-        "Enterprise-grade encryption and security measures to keep your information safe. Regular backups and privacy controls.",
+        "Runs on standard Android devices using the camera and sensors. No need for beacons, QR codes, or additional equipment.",
       color: "#4cc9f0",
     },
     {
       id: 6,
-      icon: "fas fa-sync",
-      title: "Cross-Platform Sync",
-      shortDesc: "Access anywhere, anytime",
+      icon: "fas fa-user-check",
+      title: "User-Friendly Interface",
+      shortDesc: "Easy for everyone to use",
       fullDesc:
-        "Seamless synchronization across all your devices. Real-time updates whether you're on mobile, tablet, or desktop.",
+        "A clean and simple interface ensures that new students and visitors can use the app without any prior training.",
       color: "#4895ef",
     },
   ];
@@ -92,20 +92,6 @@ const Features = () => {
                 className={`feature-full-desc ${expandedCard === feature.id ? "show" : ""}`}
               >
                 <p>{feature.fullDesc}</p>
-                <div className="feature-benefits">
-                  <div className="benefit">
-                    <i className="fas fa-check-circle"></i>
-                    <span>Easy to use</span>
-                  </div>
-                  <div className="benefit">
-                    <i className="fas fa-check-circle"></i>
-                    <span>Customizable</span>
-                  </div>
-                  <div className="benefit">
-                    <i className="fas fa-check-circle"></i>
-                    <span>24/7 Support</span>
-                  </div>
-                </div>
               </div>
 
               <button className="feature-expand-btn">

@@ -143,15 +143,15 @@ const DownloadSection = () => {
             <div className="download-notes">
               <div className="note">
                 <i className="fas fa-shield-alt"></i>
-                <span>100% Safe & Secure</span>
+                <span>Accurate Indoor Guidance</span>
               </div>
               <div className="note">
                 <i className="fas fa-sync-alt"></i>
-                <span>Free Lifetime Updates</span>
+                <span>No Extra Hardware</span>
               </div>
               <div className="note">
                 <i className="fas fa-headset"></i>
-                <span>24/7 Support</span>
+                <span>Student Friendly</span>
               </div>
             </div>
           </div>
