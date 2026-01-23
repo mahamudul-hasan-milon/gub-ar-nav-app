@@ -6,51 +6,51 @@ const FAQ = () => {
   const faqItems = [
     {
       id: 1,
-      question: "Is the app completely free to use?",
+      question: "Is GUB AR Nav free to use?",
       answer:
-        "Yes, our app is completely free to download and use with all core features available at no cost. We offer optional premium features for power users, but everything you need for productivity is available in the free version.",
+        "Yes, GUB AR Nav is completely free and developed for academic and campus use. All core navigation features are available without any cost.",
     },
     {
       id: 2,
       question: "Which devices are supported?",
       answer:
-        "The app is available for both Android (version 8.0 and above) and iOS (version 13.0 and above). We also have a web version that syncs with your mobile app for seamless cross-platform usage.",
+        "The application supports Android smartphones running Android 8.0 or higher with ARCore compatibility.",
     },
     {
       id: 3,
-      question: "How does the data sync work?",
+      question: "Do I need an internet connection?",
       answer:
-        "Your data syncs automatically across all your devices using secure cloud storage. Changes made on one device appear on all your other devices within seconds. You can also enable manual sync if preferred.",
+        "Basic navigation works offline after the app is installed. Internet is only required for initial setup and updates.",
     },
     {
       id: 4,
-      question: "Is my data secure and private?",
+      question: "How does the AR navigation work?",
       answer:
-        "Absolutely. We use end-to-end encryption for all your data. We never sell your personal information, and you have full control over your data. You can read our detailed privacy policy for more information.",
+        "The app uses the phone camera and AR technology to display arrows and markers directly on the real environment, guiding users step by step to their destination.",
     },
     {
       id: 5,
-      question: "How do I export my data?",
+      question: "Does it require extra hardware?",
       answer:
-        "You can export your tasks, notes, and analytics at any time in multiple formats (PDF, CSV, JSON). Go to Settings > Data Management > Export Data to download all your information.",
+        "No additional hardware is required. The system works using only a standard Android Smartphone.",
     },
     {
       id: 6,
-      question: "What happens if I lose my device?",
+      question: "Which areas are covered?",
       answer:
-        "Your data is safely stored in the cloud. Simply install the app on your new device, log in with your account, and all your data will be restored. You can also remotely sign out of lost devices from the web version.",
+        "Currently, the prototype covers selected buildings and floors of Green University of Bangladesh.",
     },
     {
       id: 7,
-      question: "How do I contact support?",
+      question: "Who is this app for?",
       answer:
-        "You can contact our support team 24/7 through the in-app chat, email at support@appname.com, or visit our help center. We typically respond within a few hours, often much sooner.",
+        "The app is designed for new students, visitors, and anyone who is unfamiliar with the campus layout.",
     },
     {
       id: 8,
-      question: "Can I use the app offline?",
+      question: "Is this a commercial product?",
       answer:
-        "Yes! The app works offline for most features. Any changes you make offline will sync automatically once you reconnect to the internet. Some features like cloud backup require an internet connection.",
+        "No. GUB AR Nav is an academic project developed for research and educational purposes.",
     },
   ];
 
@@ -118,11 +118,10 @@ const FAQ = () => {
               </p>
 
               <div className="contact-methods">
-                <a href="mailto:support@appname.com" className="contact-method">
+                <a href="#" className="contact-method">
                   <i className="fas fa-envelope"></i>
                   <div>
                     <span className="method-label">Email us</span>
-                    <span className="method-detail">support@appname.com</span>
                   </div>
                 </a>
 
@@ -130,7 +129,6 @@ const FAQ = () => {
                   <i className="fas fa-comments"></i>
                   <div>
                     <span className="method-label">Live chat</span>
-                    <span className="method-detail">24/7 available</span>
                   </div>
                 </a>
 
@@ -138,7 +136,6 @@ const FAQ = () => {
                   <i className="fas fa-file-alt"></i>
                   <div>
                     <span className="method-label">Help center</span>
-                    <span className="method-detail">Docs & tutorials</span>
                   </div>
                 </a>
               </div>

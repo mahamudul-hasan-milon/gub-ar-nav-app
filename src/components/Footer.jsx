@@ -5,37 +5,19 @@ const Footer = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const socialLinks = [
-    { icon: "fab fa-twitter", url: "#", label: "Twitter" },
-    { icon: "fab fa-facebook-f", url: "#", label: "Facebook" },
-    { icon: "fab fa-instagram", url: "#", label: "Instagram" },
-    { icon: "fab fa-linkedin-in", url: "#", label: "LinkedIn" },
-    { icon: "fab fa-github", url: "#", label: "GitHub" },
-  ];
-
   const footerLinks = [
     {
       title: "Product",
       links: [
+        { label: "About Project", href: "#" },
         { label: "Features", href: "#features" },
-        { label: "Pricing", href: "#" },
-        { label: "API", href: "#" },
-        { label: "Documentation", href: "#" },
-      ],
-    },
-    {
-      title: "Company",
-      links: [
-        { label: "About", href: "#" },
-        { label: "Blog", href: "#" },
-        { label: "Careers", href: "#" },
-        { label: "Press", href: "#" },
+        { label: "How It Works", href: "#" },
+        { label: "Screenshots", href: "#" },
       ],
     },
     {
       title: "Support",
       links: [
-        { label: "Help Center", href: "#" },
         { label: "Contact Us", href: "#" },
         { label: "Privacy Policy", href: "#" },
         { label: "Terms of Service", href: "#" },
@@ -52,26 +34,12 @@ const Footer = () => {
               <div className="logo-icon">
                 <i className="fas fa-rocket"></i>
               </div>
-              <span className="logo-text">AppName</span>
+              <span className="logo-text">GUB AR Nav</span>
             </div>
             <p className="footer-tagline">
-              The ultimate productivity app for individuals and teams.
+              AR-based indoor navigation system for Green University of
+              Bangladesh.
             </p>
-
-            <div className="social-links">
-              {socialLinks.map((social, index) => (
-                <a
-                  key={index}
-                  href={social.url}
-                  className="social-link"
-                  aria-label={social.label}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className={social.icon}></i>
-                </a>
-              ))}
-            </div>
 
             <div className="app-stores">
               <a href="#" className="store-link">
@@ -123,26 +91,21 @@ const Footer = () => {
               <div className="contact-info">
                 <div className="contact-item">
                   <i className="fas fa-envelope"></i>
-                  <span>hello@appname.com</span>
+                  <span>mahamudulhasanmilon553@gmail.com</span>
+                  <span>tacin900.bd@gmail.com</span>
                 </div>
                 <div className="contact-item">
                   <i className="fas fa-phone"></i>
-                  <span>+1 (555) 123-4567</span>
+                  <span>+8801773593797</span>
+                  <span>+8801518605673</span>
+                  <span>+8801568041826</span>
                 </div>
                 <div className="contact-item">
                   <i className="fas fa-map-marker-alt"></i>
-                  <span>San Francisco, CA</span>
-                </div>
-              </div>
-
-              <div className="newsletter">
-                <h4>Stay Updated</h4>
-                <p>Subscribe to our newsletter for the latest updates</p>
-                <div className="newsletter-form">
-                  <input type="email" placeholder="Your email address" />
-                  <button type="submit">
-                    <i className="fas fa-paper-plane"></i>
-                  </button>
+                  <span>
+                    Purbachal American City, Kanchan, Rupganj, Narayanganj-1461,
+                    Dhaka, Bangladesh
+                  </span>
                 </div>
               </div>
             </div>
@@ -151,7 +114,7 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <div className="copyright">
-            © {currentYear} AppName. All rights reserved.
+            © {currentYear} GUB AR Navigation System. All rights reserved.
           </div>
 
           <div className="footer-bottom-links">
