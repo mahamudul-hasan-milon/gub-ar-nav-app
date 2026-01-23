@@ -8,63 +8,57 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Sarah Johnson",
-      role: "Product Manager",
-      company: "TechCorp",
+      name: "Md. Mahamudul Hasan Milon",
+      role: "Student, Green University of Bangladesh",
       content:
-        "This app completely transformed how I manage my daily tasks. The interface is intuitive and the analytics helped me identify time-wasting habits.",
+        "Using GUB AR Nav made it much easier to find rooms inside the campus. The AR arrows felt natural and helped me reach my destination without asking anyone.",
       rating: 5,
-      avatar: "SJ",
+      avatar: "MH",
     },
     {
       id: 2,
-      name: "Michael Chen",
-      role: "Freelance Developer",
-      company: "Self-Employed",
+      name: "Md. Abdullah Al Tacin",
+      role: "Student, Green University of Bangladesh",
       content:
-        "As a freelancer, staying organized is crucial. This app helps me track multiple projects and deadlines seamlessly across all my devices.",
+        "As a new student, I often got confused between buildings and floors. This app gave clear visual guidance and saved a lot of time.",
       rating: 5,
-      avatar: "MC",
+      avatar: "AT",
     },
     {
       id: 3,
-      name: "Jessica Williams",
-      role: "Student",
-      company: "University",
+      name: "Mofidul Moktar Mofid",
+      role: "Student, Green University of Bangladesh",
       content:
-        "Perfect for students! The habit tracking feature helped me build consistent study routines. My productivity has increased by 40% since using this app.",
+        "The AR-based navigation is simple and effective. I liked how the arrows appear directly in front of me instead of using a complex map.",
       rating: 4,
-      avatar: "JW",
+      avatar: "MM",
     },
     {
       id: 4,
-      name: "David Miller",
-      role: "Team Lead",
-      company: "StartupXYZ",
+      name: "Nusrat Jahan",
+      role: "First-Year Student",
       content:
-        "The team collaboration features are fantastic. We've reduced meeting times by 30% thanks to better task organization and communication.",
+        "Finding classrooms during the first week was stressful. GUB AR Nav guided me step by step and reduced confusion inside the building.",
       rating: 5,
-      avatar: "DM",
+      avatar: "NJ",
     },
     {
       id: 5,
-      name: "Emma Garcia",
-      role: "Marketing Director",
-      company: "BrandAgency",
+      name: "Rakib Hossain",
+      role: "Campus Visitor",
       content:
-        "I've tried many productivity apps, but this one stands out. The smart reminders and progress tracking keep me motivated and on track.",
-      rating: 5,
-      avatar: "EG",
+        "I visited the university for the first time and easily reached the office using this app. It feels like having a digital guide in your phone.",
+      rating: 4,
+      avatar: "RH",
     },
     {
       id: 6,
-      name: "Robert Kim",
-      role: "Entrepreneur",
-      company: "InnovateLabs",
+      name: "Sadia Islam",
+      role: "Student",
       content:
-        "The cross-platform sync is flawless. Whether I'm on my phone, tablet, or laptop, everything is always up to date. Highly recommended!",
-      rating: 4,
-      avatar: "RK",
+        "The system is very helpful for large buildings. Even without knowing the layout, I could follow the green path and reach my destination.",
+      rating: 5,
+      avatar: "SI",
     },
   ];
 
@@ -130,10 +124,10 @@ const Testimonials = () => {
   return (
     <section className="testimonials" id="testimonials">
       <div className="container">
-        <h2>What Our Users Say</h2>
+        <h2>What Our Test Users Say</h2>
         <p className="section-subtitle">
-          Join thousands of satisfied users who have transformed their
-          productivity
+          Feedback from students and visitors who tested the AR navigation
+          system inside the campus.
         </p>
 
         <div
