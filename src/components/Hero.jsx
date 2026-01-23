@@ -30,14 +30,14 @@ const Hero = () => {
       <div className="container">
         <div className="hero-content">
           <div className="hero-text">
-            <h1>Transform Your Productivity</h1>
+            <h1>Smart Indoor Navigation for Green University</h1>
             <p className="subtitle">
-              The all-in-one app that helps you organize tasks, track habits,
-              and achieve your goals faster than ever before.
+              An AR-powered mobile application that guides students and visitors
+              inside campus buildings with real-time visual directions.
             </p>
             <div className="hero-stats">
               <div className="stat">
-                <span className="stat-number">500K+</span>
+                <span className="stat-number">50+</span>
                 <span className="stat-label">Downloads</span>
               </div>
               <div className="stat">
@@ -64,7 +64,7 @@ const Hero = () => {
                   <div className="app-header">
                     <div className="app-header-content">
                       <div className="app-icon-small"></div>
-                      <span>AppName</span>
+                      <span>GUB AR Nav</span>
                     </div>
                   </div>
                   <div className="task-list">

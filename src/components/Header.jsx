@@ -28,7 +28,7 @@ const Header = ({ theme, toggleTheme }) => {
             <div className="logo-icon">
               <i className="fas fa-rocket"></i>
             </div>
-            <span className="logo-text">AppName</span>
+            <span className="logo-text">GUB AR Nav</span>
           </div>
 
           <div className={`nav-links ${isMobileMenuOpen ? "open" : ""}`}>
