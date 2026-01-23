@@ -28,7 +28,7 @@ const AppPreview = () => {
       id: 4,
       title: "AR Navigation View",
       description: "Follow green paths and arrows in real time using AR",
-      // image: "https://i.ibb.co/xxxx/ar.png",
+      image: "https://i.ibb.co/8g5cH4nx/output.jpg",
     },
     {
       id: 5,

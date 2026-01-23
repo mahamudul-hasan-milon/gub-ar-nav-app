@@ -1,16 +1,26 @@
-# React + Vite
+# GUB AR Nav – Smart Indoor Navigation System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GUB AR Nav is an AR-powered indoor navigation system designed for **Green University of Bangladesh**.  
+It helps students and visitors find their way inside campus buildings using real-time visual guidance.
 
-Currently, two official plugins are available:
+This project includes:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- A modern landing website (React / Next.js)
+- App preview slider
+- Device-based download system
+- Direct APK download support
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎯 Smart indoor navigation concept for university campuses
+- 📱 App preview slider with multiple screens
+- 🧭 AR-based navigation idea (future mobile integration)
+- 🤖 Automatic device detection (Android / iOS / Desktop)
+- ⬇️ One-click APK download
+- 🎨 Modern UI with animated gradients and mockups
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live Link
+
+https://gub-ar-nav-app.vercel.app/

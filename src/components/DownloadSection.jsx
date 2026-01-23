@@ -7,14 +7,14 @@ const DownloadSection = () => {
   const appDetails = {
     version: "1.0",
     android: {
-      size: "45 MB",
+      size: "74 MB",
       downloads: "5+",
-      link: "https://example.com/app.apk",
+      link: "https://drive.google.com/uc?export=download&id=1nVRN-ER4ge6j3PdBqKwmLPPDzcKFJTCj",
     },
     ios: {
-      size: "68 MB",
+      size: "85 MB",
       downloads: "100+",
-      link: "https://apps.apple.com/app/id1234567890",
+      link: "https://drive.google.com/uc?export=download&id=1nVRN-ER4ge6j3PdBqKwmLPPDzcKFJTCj",
     },
   };
 
@@ -35,16 +35,10 @@ const DownloadSection = () => {
   }, []);
 
   const handleDownload = (platform) => {
-    // In a real app, you would track this download
-    console.log(`Downloading for ${platform}`);
+    const link =
+      platform === "android" ? appDetails.android.link : appDetails.ios.link;
 
-    // Simulate download start
-    alert(
-      `Starting download for ${platform === "android" ? "Android" : "iOS"}...`,
-    );
-
-    // Redirect to actual download link
-    // window.open(platform === 'android' ? appDetails.android.link : appDetails.ios.link, '_blank');
+    window.open(link, "_blank");
   };
 
   return (
