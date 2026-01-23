@@ -5,15 +5,15 @@ const DownloadSection = () => {
   const [recommendedBtn, setRecommendedBtn] = useState(null);
 
   const appDetails = {
-    version: "2.5.1",
+    version: "1.0",
     android: {
       size: "45 MB",
-      downloads: "500K+",
+      downloads: "5+",
       link: "https://example.com/app.apk",
     },
     ios: {
       size: "68 MB",
-      downloads: "300K+",
+      downloads: "100+",
       link: "https://apps.apple.com/app/id1234567890",
     },
   };
@@ -50,22 +50,23 @@ const DownloadSection = () => {
   return (
     <section className="download-section" id="download">
       <div className="container">
-        <h2>Download AppName Now</h2>
+        <h2>Download GUB AR Nav Now</h2>
         <p className="section-subtitle">
-          Join millions of users who have transformed their productivity
+          Find your way inside Green University with real-time AR guidance
         </p>
 
         <div className="download-content">
           <div className="download-info">
             <div className="version-badge">
               <span>Version {appDetails.version}</span>
-              <span className="badge-new">NEW</span>
+              <span className="badge-new">Beta</span>
             </div>
 
-            <h3>Ready to boost your productivity?</h3>
+            <h3>Ready to explore the campus without confusion?</h3>
             <p className="download-desc">
-              Download our app today and experience the difference. Available
-              for both Android and iOS devices.
+              Download GUB AR Nav and experience smart indoor navigation powered
+              by Augmented Reality. Designed especially for students and
+              visitors of Green University of Bangladesh.
             </p>
 
             {recommendedBtn && (
@@ -83,15 +84,15 @@ const DownloadSection = () => {
             <div className="download-stats">
               <div className="download-stat">
                 <div className="stat-value">{appDetails.android.downloads}</div>
-                <div className="stat-label">Android Downloads</div>
+                <div className="stat-label">Campus Blocks Covered</div>
               </div>
               <div className="download-stat">
                 <div className="stat-value">{appDetails.ios.downloads}</div>
-                <div className="stat-label">iOS Downloads</div>
+                <div className="stat-label">Location Mapped</div>
               </div>
               <div className="download-stat">
-                <div className="stat-value">4.9★</div>
-                <div className="stat-label">Average Rating</div>
+                <div className="stat-value">4.8★</div>
+                <div className="stat-label">User Rating</div>
               </div>
             </div>
           </div>
@@ -153,22 +154,6 @@ const DownloadSection = () => {
                 <span>24/7 Support</span>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div className="qrcode-section">
-          <div className="qrcode-container">
-            <div className="qrcode-placeholder">
-              <div className="qrcode-grid">
-                {Array.from({ length: 25 }).map((_, i) => (
-                  <div
-                    key={i}
-                    className={`qrcode-cell ${i % 3 === 0 ? "filled" : ""}`}
-                  ></div>
-                ))}
-              </div>
-            </div>
-            <p>Scan to download on your mobile device</p>
           </div>
         </div>
       </div>
