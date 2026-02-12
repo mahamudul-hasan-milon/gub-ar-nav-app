@@ -123,14 +123,6 @@ const Footer = () => {
             <a href="#">Cookie Policy</a>
             <a href="#">Sitemap</a>
           </div>
-
-          <button
-            className="back-to-top"
-            onClick={scrollToTop}
-            aria-label="Back to top"
-          >
-            <i className="fas fa-arrow-up"></i>
-          </button>
         </div>
       </div>
 

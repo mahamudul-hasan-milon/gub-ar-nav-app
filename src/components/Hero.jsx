@@ -188,7 +188,7 @@ const Hero = () => {
           width: calc(100% - 20px);
           height: calc(100% - 40px);
           border-radius: 30px;
-          background: url("https://i.ibb.co/0jcDtVJr/pro-ui.png") center/cover
+          background: url("https://i.ibb.co/WWXgsgwn/hero.png") center/cover
             no-repeat;
           overflow: hidden;
           z-index: 3;

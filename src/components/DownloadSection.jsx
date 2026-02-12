@@ -9,12 +9,12 @@ const DownloadSection = () => {
     android: {
       size: "74 MB",
       downloads: "5+",
-      link: "https://drive.google.com/uc?export=download&id=1nVRN-ER4ge6j3PdBqKwmLPPDzcKFJTCj",
+      link: "https://drive.google.com/uc?export=download&id=1JI-mFb-8KA3vnNT7z_S7rMag3AxCFHFs",
     },
     ios: {
       size: "85 MB",
       downloads: "100+",
-      link: "https://drive.google.com/uc?export=download&id=1nVRN-ER4ge6j3PdBqKwmLPPDzcKFJTCj",
+      link: "https://drive.google.com/uc?export=download&id=1JI-mFb-8KA3vnNT7z_S7rMag3AxCFHFs",
     },
   };
 

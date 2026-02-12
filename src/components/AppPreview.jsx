@@ -10,19 +10,13 @@ const AppPreview = () => {
       id: 1,
       title: "Home Screen",
       description: "Start the app and access campus navigation features",
-      image: "https://i.ibb.co/VWfhvXnb/home.jpg",
-    },
-    {
-      id: 2,
-      title: "Destination List",
-      description: "Browse all available rooms, labs, and offices",
-      // image: "https://i.ibb.co/xxxx/destination.png",
+      image: "https://i.ibb.co/4ntCCv2M/home.jpg",
     },
     {
       id: 3,
       title: "Search Location",
       description: "Quickly find a room or place by name or code",
-      // image: "https://i.ibb.co/xxxx/search.png",
+      image: "https://i.ibb.co/G4R2m5FH/path.jpg",
     },
     {
       id: 4,
@@ -34,13 +28,7 @@ const AppPreview = () => {
       id: 5,
       title: "Campus Map",
       description: "View the building layout and navigation points",
-      // image: "https://i.ibb.co/xxxx/map.png",
-    },
-    {
-      id: 6,
-      title: "Settings",
-      description: "Adjust app preferences and AR options",
-      // image: "https://i.ibb.co/xxxx/settings.png",
+      image: "https://i.ibb.co/SDX7JQnV/B7-small-wall.png",
     },
   ];
 
